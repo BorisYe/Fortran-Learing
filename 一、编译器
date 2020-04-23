@@ -1,0 +1,5 @@
+一、编译器
+第一步就是安装编译器
+免费的就是GFortran，网上查到的用的多的是Intel Visual Fortran，很多实验室，比如超算就是用的这个。
+我当然是装GFortran
+G95下载：https://www.fortran.com/the-fortran-company-homepage/whats-new/g95-windows-download/
