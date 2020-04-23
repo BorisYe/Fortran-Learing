@@ -1,0 +1,8 @@
+1、第一个程序
+众所周知，As all we know,学习语言第一件事就是say 'Hello,World'.
+打开notepad++，新建文件
+然后输入：
+PROGRAM hello_world
+PRINT *, 'Hello World! Welcome to FORTRAN!'
+END
+然后保存文件名为 hello_world.f90
