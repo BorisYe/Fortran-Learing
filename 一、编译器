@@ -1,5 +1,10 @@
 一、编译器
+1、编译器
 第一步就是安装编译器
 免费的就是GFortran，网上查到的用的多的是Intel Visual Fortran，很多实验室，比如超算就是用的这个。
 我当然是装GFortran
 G95下载：https://www.fortran.com/the-fortran-company-homepage/whats-new/g95-windows-download/
+2、代码编辑器
+写代码我通常用Notepad++，也是因为免费好用，写Matlab，写C++都用这个。之后还要学学Java和Python.
+3、学习资料（不定时更新）
+1）中科大天文系的Fortran入门http://micro.ustc.edu.cn/Fortran/ZJDing/
