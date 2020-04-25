@@ -6,3 +6,52 @@ PROGRAM hello_world
 PRINT *, 'Hello World! Welcome to FORTRAN!'
 END
 然后保存文件名为 hello_world.f90
+2、例子中的程序
+1）求两个数算术平均值和几何平均值
+
+PROGRAM Example_1_1   !求两种平均值
+		REAL :: a,b,av1,av2
+		READ *, a,b
+			av1=(a+b)/2;av2=(a*b)**0.5
+		PRINT *, av1,av2
+END
+
+2）已知底面半径和高，求圆锥体积和表面积
+
+!------求体积和表面积--------
+PROGRAM Example_1_2      
+		REAL :: PI,r,h,V,S
+		PI=3.141593
+		PRINT *,'Input radius r and height h ?'
+		READ *, r,h
+		V=PI*h*r**2/3.0
+		S=PI*r**2+PI*r*sqrt(r**2+h**2)
+		PRINT *, 'Vloume=',V
+		PRINT *, 'Area=',S
+END
+
+3）已知放射性元素半衰期，求给定时间后衰减量
+
+!-----求衰减量-----
+PROGRAM Example_1_3
+	REAL :: x,t,x0,t0
+	PRINT *, '请输入初始量：'
+	READ *,x0
+	PRINT *, '请输入半衰期：'
+	READ *,t0
+	PRINT *, '给定时间为：'
+	READ *, t
+	x=x0*(1-2**(t/t0))
+	PRINT *, '衰减量为：'，x 
+END
+
+4）求一个整数的平方到5次方
+
+!====乘方======
+PROGRAM Example_1_4
+	INTEGER :: x,x2,x3,x4,x5
+	print *, '输入一个整数'
+	read *, x 
+	x2=x**2;x3=x2*x;x4=x3*x;x5=x4*x
+	print *,'x的平方到5次方依次为：'，x2,x3,x4,x5
+END
